@@ -1,3 +1,3 @@
-export function Welcome(name) {
-  return <h1>Hello, {name}</h1>;
+export function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
 }
